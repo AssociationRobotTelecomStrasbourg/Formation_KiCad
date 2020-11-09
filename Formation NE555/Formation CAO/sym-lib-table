@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Formation-CAO_full-rescue)(type Legacy)(uri "${KIPRJMOD}/Formation CAO_full-rescue.lib")(options "")(descr ""))
+)

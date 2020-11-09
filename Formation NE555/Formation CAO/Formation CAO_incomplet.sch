@@ -1,0 +1,241 @@
+EESchema Schematic File Version 4
+LIBS:Formation CAO_incomplet-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5D902070
+P 10050 3000
+F 0 "D?" H 10043 2745 50  0000 C CNN
+F 1 "LED" H 10043 2836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 10050 3000 50  0001 C CNN
+F 3 "~" H 10050 3000 50  0001 C CNN
+	1    10050 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D90241D
+P 10050 3350
+F 0 "D?" H 10043 3095 50  0000 C CNN
+F 1 "LED" H 10043 3186 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 10050 3350 50  0001 C CNN
+F 3 "~" H 10050 3350 50  0001 C CNN
+	1    10050 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D903986
+P 10050 3700
+F 0 "D?" H 10043 3445 50  0000 C CNN
+F 1 "LED" H 10043 3536 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 10050 3700 50  0001 C CNN
+F 3 "~" H 10050 3700 50  0001 C CNN
+	1    10050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D903C91
+P 10050 4050
+F 0 "D?" H 10043 3795 50  0000 C CNN
+F 1 "LED" H 10043 3886 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 10050 4050 50  0001 C CNN
+F 3 "~" H 10050 4050 50  0001 C CNN
+	1    10050 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D905DDE
+P 9750 3000
+F 0 "R?" V 9543 3000 50  0000 C CNN
+F 1 "1kR" V 9634 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9680 3000 50  0001 C CNN
+F 3 "~" H 9750 3000 50  0001 C CNN
+	1    9750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9060E7
+P 9750 3700
+F 0 "R?" V 9543 3700 50  0000 C CNN
+F 1 "1kR" V 9634 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9680 3700 50  0001 C CNN
+F 3 "~" H 9750 3700 50  0001 C CNN
+	1    9750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D90642D
+P 9750 4050
+F 0 "R?" V 9543 4050 50  0000 C CNN
+F 1 "1kR" V 9634 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9680 4050 50  0001 C CNN
+F 3 "~" H 9750 4050 50  0001 C CNN
+	1    9750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D906CE3
+P 9750 3350
+F 0 "R?" V 9543 3350 50  0000 C CNN
+F 1 "1kR" V 9634 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9680 3350 50  0001 C CNN
+F 3 "~" H 9750 3350 50  0001 C CNN
+	1    9750 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 3000 10400 3000
+Wire Wire Line
+	10400 3000 10400 3350
+Wire Wire Line
+	10400 4050 10200 4050
+Wire Wire Line
+	10200 3700 10400 3700
+Connection ~ 10400 3700
+Wire Wire Line
+	10400 3700 10400 4050
+Wire Wire Line
+	10200 3350 10400 3350
+Connection ~ 10400 3350
+Wire Wire Line
+	10400 3350 10400 3500
+$Comp
+L power:GND #PWR0106
+U 1 1 5D907F8D
+P 10500 3500
+F 0 "#PWR0106" H 10500 3250 50  0001 C CNN
+F 1 "GND" V 10505 3372 50  0000 R CNN
+F 2 "" H 10500 3500 50  0001 C CNN
+F 3 "" H 10500 3500 50  0001 C CNN
+	1    10500 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 3500 10400 3500
+Connection ~ 10400 3500
+Wire Wire Line
+	10400 3500 10400 3700
+Wire Wire Line
+	9600 3000 9450 3000
+Wire Wire Line
+	9450 3000 9450 3350
+Wire Wire Line
+	9450 4050 9600 4050
+Wire Wire Line
+	9600 3700 9450 3700
+Connection ~ 9450 3700
+Wire Wire Line
+	9450 3700 9450 4050
+Wire Wire Line
+	9600 3350 9450 3350
+Connection ~ 9450 3350
+Wire Notes Line
+	8200 1750 8200 1250
+Text Notes 7000 1300 0    50   ~ 0
+Placer ici les PWR_FLAG,\navec les signaux GND et +3V0\n\n
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5D9F3293
+P 8550 2050
+F 0 "BT?" H 8668 2146 50  0000 L CNN
+F 1 "Battery_Cell" H 8668 2055 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 8550 2110 50  0001 C CNN
+F 3 "~" V 8550 2110 50  0001 C CNN
+	1    8550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FormationCAO:SW_Push SW?
+U 1 1 5D9F3906
+P 9200 1650
+F 0 "SW?" H 9200 1975 50  0000 C CNN
+F 1 "SW_Push" H 9200 1884 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 9200 1350 50  0001 C CNN
+F 3 "" H 9200 1350 50  0001 C CNN
+	1    9200 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3350 9450 3550
+Wire Wire Line
+	9450 3550 9300 3550
+Connection ~ 9450 3550
+Wire Wire Line
+	9450 3550 9450 3700
+Text Label 9300 3550 2    50   ~ 0
+Sortie
+Wire Notes Line
+	9200 3400 9200 3050
+Wire Notes Line
+	9050 3400 9050 3450
+Wire Notes Line
+	9300 3400 9300 3450
+Wire Notes Line
+	9300 3400 9050 3400
+Text Notes 8500 3000 0    50   ~ 0
+Exemple d'utilisation\nd'un label, à compléter 
+Wire Notes Line
+	8450 3050 8450 2800
+Wire Notes Line
+	8450 2800 9450 2800
+Wire Notes Line
+	9450 2800 9450 3050
+Wire Notes Line
+	8450 3050 9450 3050
+$Comp
+L power:+3V0 #PWR?
+U 1 1 5D9C83FB
+P 9750 1750
+F 0 "#PWR?" H 9750 1600 50  0001 C CNN
+F 1 "+3V0" H 9765 1923 50  0000 C CNN
+F 2 "" H 9750 1750 50  0001 C CNN
+F 3 "" H 9750 1750 50  0001 C CNN
+	1    9750 1750
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	8400 1250 9950 1250
+Wire Notes Line
+	9950 1250 9950 2450
+Wire Notes Line
+	9950 2450 8400 2450
+Wire Notes Line
+	8400 2450 8400 1250
+Text Notes 8400 1200 0    79   ~ 0
+Section d'alimentation en kit !
+Wire Notes Line
+	8400 2700 10800 2700
+Wire Notes Line
+	10800 2700 10800 4150
+Wire Notes Line
+	10800 4150 8400 4150
+Wire Notes Line
+	8400 4150 8400 2700
+Text Notes 8400 2650 0    100  ~ 0
+Section de sortie toute faite
+Wire Notes Line
+	7000 1250 7000 1750
+Wire Notes Line
+	7000 1750 8200 1750
+Wire Notes Line
+	7000 1250 8200 1250
+$EndSCHEMATC

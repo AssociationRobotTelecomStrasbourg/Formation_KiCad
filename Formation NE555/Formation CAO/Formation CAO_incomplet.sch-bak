@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+LIBS:Formation CAO-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5D8FA392
+P 5550 1450
+F 0 "#PWR0101" H 5550 1300 50  0001 C CNN
+F 1 "+3.3V" H 5565 1623 50  0000 C CNN
+F 2 "" H 5550 1450 50  0001 C CNN
+F 3 "" H 5550 1450 50  0001 C CNN
+	1    5550 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D8FA6D6
+P 6000 1450
+F 0 "#FLG0101" H 6000 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 1623 50  0000 C CNN
+F 2 "" H 6000 1450 50  0001 C CNN
+F 3 "~" H 6000 1450 50  0001 C CNN
+	1    6000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D8FA946
+P 6000 1450
+F 0 "#PWR0102" H 6000 1200 50  0001 C CNN
+F 1 "GND" H 6005 1277 50  0000 C CNN
+F 2 "" H 6000 1450 50  0001 C CNN
+F 3 "" H 6000 1450 50  0001 C CNN
+	1    6000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D902070
+P 9450 4900
+F 0 "D?" H 9443 4645 50  0000 C CNN
+F 1 "LED" H 9443 4736 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9450 4900 50  0001 C CNN
+F 3 "~" H 9450 4900 50  0001 C CNN
+	1    9450 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D90241D
+P 9450 5250
+F 0 "D?" H 9443 4995 50  0000 C CNN
+F 1 "LED" H 9443 5086 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9450 5250 50  0001 C CNN
+F 3 "~" H 9450 5250 50  0001 C CNN
+	1    9450 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D903986
+P 9450 5600
+F 0 "D?" H 9443 5345 50  0000 C CNN
+F 1 "LED" H 9443 5436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9450 5600 50  0001 C CNN
+F 3 "~" H 9450 5600 50  0001 C CNN
+	1    9450 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D903C91
+P 9450 5950
+F 0 "D?" H 9443 5695 50  0000 C CNN
+F 1 "LED" H 9443 5786 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9450 5950 50  0001 C CNN
+F 3 "~" H 9450 5950 50  0001 C CNN
+	1    9450 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D905DDE
+P 9150 4900
+F 0 "R?" V 8943 4900 50  0000 C CNN
+F 1 "1kR" V 9034 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 4900 50  0001 C CNN
+F 3 "~" H 9150 4900 50  0001 C CNN
+	1    9150 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9060E7
+P 9150 5600
+F 0 "R?" V 8943 5600 50  0000 C CNN
+F 1 "1kR" V 9034 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 5600 50  0001 C CNN
+F 3 "~" H 9150 5600 50  0001 C CNN
+	1    9150 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D90642D
+P 9150 5950
+F 0 "R?" V 8943 5950 50  0000 C CNN
+F 1 "1kR" V 9034 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 5950 50  0001 C CNN
+F 3 "~" H 9150 5950 50  0001 C CNN
+	1    9150 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D906CE3
+P 9150 5250
+F 0 "R?" V 8943 5250 50  0000 C CNN
+F 1 "1kR" V 9034 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9080 5250 50  0001 C CNN
+F 3 "~" H 9150 5250 50  0001 C CNN
+	1    9150 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 4900 9800 4900
+Wire Wire Line
+	9800 4900 9800 5250
+Wire Wire Line
+	9800 5950 9600 5950
+Wire Wire Line
+	9600 5600 9800 5600
+Connection ~ 9800 5600
+Wire Wire Line
+	9800 5600 9800 5950
+Wire Wire Line
+	9600 5250 9800 5250
+Connection ~ 9800 5250
+Wire Wire Line
+	9800 5250 9800 5400
+$Comp
+L power:GND #PWR0106
+U 1 1 5D907F8D
+P 9900 5400
+F 0 "#PWR0106" H 9900 5150 50  0001 C CNN
+F 1 "GND" V 9905 5272 50  0000 R CNN
+F 2 "" H 9900 5400 50  0001 C CNN
+F 3 "" H 9900 5400 50  0001 C CNN
+	1    9900 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 5400 9800 5400
+Connection ~ 9800 5400
+Wire Wire Line
+	9800 5400 9800 5600
+Wire Wire Line
+	9000 4900 8850 4900
+Wire Wire Line
+	8850 4900 8850 5250
+Wire Wire Line
+	8850 5950 9000 5950
+Wire Wire Line
+	9000 5600 8850 5600
+Connection ~ 8850 5600
+Wire Wire Line
+	8850 5600 8850 5950
+Wire Wire Line
+	9000 5250 8850 5250
+Connection ~ 8850 5250
+Wire Notes Line
+	6150 1700 6250 1700
+Wire Notes Line
+	6250 1700 6250 1200
+Wire Notes Line
+	6250 1200 6150 1200
+Text Notes 6300 1450 0    50   ~ 0
+Compléter ici les PWR_FLAG\n
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5D9F3293
+P 5350 2250
+F 0 "BT?" H 5468 2346 50  0000 L CNN
+F 1 "Battery_Cell" H 5468 2255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 5350 2310 50  0001 C CNN
+F 3 "~" V 5350 2310 50  0001 C CNN
+	1    5350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FormationCAO:SW_Push SW?
+U 1 1 5D9F3906
+P 6250 2200
+F 0 "SW?" H 6250 2525 50  0000 C CNN
+F 1 "SW_Push" H 6250 2434 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6250 1900 50  0001 C CNN
+F 3 "" H 6250 1900 50  0001 C CNN
+	1    6250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5250 8850 5450
+Wire Wire Line
+	8850 5450 8700 5450
+Connection ~ 8850 5450
+Wire Wire Line
+	8850 5450 8850 5600
+Text Label 8700 5450 2    50   ~ 0
+Sortie
+$EndSCHEMATC
